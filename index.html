@@ -8,7 +8,54 @@
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <h1>Smart Web</h1>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">Smart Web</div>
+      <nav class="nav">
+        <a href="#tentang">Tentang</a>
+        <a href="#ciri">Ciri</a>
+        <a href="#hubungi">Hubungi</a>
+        <button id="theme-toggle" class="btn">Tema</button>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Web Pintar</h1>
+      <p class="lead">Laman statik ringkas, siap deploy dengan GitHub Pages.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/kecohmy-netizen/smart-web" target="_blank" rel="noopener">Lihat Repo</a>
+        <a class="btn" href="#ciri">Jelajah Ciri</a>
+      </div>
+    </section>
+    <section id="ciri" class="grid">
+      <div class="card">
+        <h3>Deploy Pantas</h3>
+        <p>Push ke cawangan utama, terus live di domain anda.</p>
+      </div>
+      <div class="card">
+        <h3>Tanpa Build</h3>
+        <p>HTML+CSS+JS ringkas, sesuai untuk laman profil dan landing.</p>
+      </div>
+      <div class="card">
+        <h3>Fleksibel</h3>
+        <p>Mudah berkembang kepada framework moden bila diperlukan.</p>
+      </div>
+    </section>
+    <section id="tentang" class="about">
+      <h2>Tentang</h2>
+      <p>Projek ini menggunakan struktur minimal agar mudah diurus dan pantas dimuat.</p>
+    </section>
+    <section id="hubungi" class="contact">
+      <h2>Hubungi</h2>
+      <p>Untuk pertanyaan, sila gunakan issues di repo GitHub.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted">Dihidangkan melalui GitHub Pages</p>
+    </div>
+  </footer>
   <script src="assets/script.js" defer></script>
 </body>
 </html>
